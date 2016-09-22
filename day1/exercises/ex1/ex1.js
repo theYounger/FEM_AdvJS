@@ -10,10 +10,10 @@ function E(f) {
 	var f = F;
 }
 
-var A = function() {
+function A() {
 	console.log("A");
 	B();
-};
+}
 
 var C;
 
@@ -40,10 +40,10 @@ function I() {
 	J();
 }
 
-B = function() {
+function B() {
 	console.log("B");
 	C();
-};
+}
 
 var F = function() {
 	console.log("F");
@@ -70,8 +70,8 @@ var J = function() {
 	};
 };
 
-C = function() {
+function C() {
 	console.log("C");
 	D();
-};
+}
 
